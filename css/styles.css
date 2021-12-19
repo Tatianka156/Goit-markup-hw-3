@@ -189,13 +189,13 @@ nav {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-
-  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .list-principles {
   display: flex;
   flex-wrap: nowrap;
+  padding-top: 48px;
 }
 
 .list-principles > .oldsection {
@@ -350,6 +350,8 @@ div h3 {
   letter-spacing: 0.03em;
   color: var(--main-color-text-darkbackground);
   margin-bottom: 9px;
+
+  outline: 1px solid white;
 }
 
 .footer-contact {
@@ -359,7 +361,10 @@ div h3 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
+  padding: 3px 0;
+  margin-top: 9px;
+
+  outline: 1px solid white;
 }
 
 .button {
@@ -401,6 +406,7 @@ div h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
 }
 
 .all-buttons > .order-1 + .order-1 {
@@ -438,7 +444,6 @@ div h3 {
 .set-projects-title {
   width: 370px;
   padding: 20px 24px;
-  margin-bottom: 20px;
   border: 1px solid #eeeeee;
 }
 

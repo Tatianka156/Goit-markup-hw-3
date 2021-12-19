@@ -191,7 +191,6 @@ nav {
   justify-content: center;
 
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .list-principles {
@@ -233,7 +232,6 @@ nav {
 
 .our-work-set > .section-card {
   flex-basis: calc(100% / 3 - 30px);
-  margin-top: 50px;
 }
 
 .our-work-set .section-card + .section-card {
@@ -244,22 +242,20 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: center;
+  margin-left: -30px;
 }
 
 .our-team > .section-team {
   flex-basis: calc(100% / 4 - 30px);
-  margin-top: 50px;
-}
-.our-team .section-team + .section-team {
-  margin-left: var(--card-set-gap);
-}
-
-.section-team {
+  margin-left: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.our-team .section-team + .section-team {
+  margin-left: var(--card-set-gap);
 }
 
 div h3 {
@@ -280,6 +276,7 @@ div h3 {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--main-color-text);
+  margin-bottom: 50px;
 }
 
 .section-team {
@@ -352,6 +349,7 @@ div h3 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color-text-darkbackground);
+  margin-bottom: 9px;
 }
 
 .footer-contact {
@@ -361,6 +359,7 @@ div h3 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 
 .button {
@@ -421,6 +420,7 @@ div h3 {
   align-content: center;
   justify-content: center;
 
+  margin-top: 50px;
   margin-left: -30px;
   margin-bottom: -30px;
 }
@@ -434,12 +434,12 @@ div h3 {
 .all-projects {
   display: block;
   list-style-type: none;
-  border-bottom: 1px solid #eeeeee;
 }
 .set-projects-title {
-  padding-left: 24px;
-  padding-right: 24px;
+  width: 370px;
+  padding: 20px 24px;
   margin-bottom: 20px;
+  border: 1px solid #eeeeee;
 }
 
 .projects-title {

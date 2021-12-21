@@ -185,11 +185,8 @@ nav {
 }
 
 .section {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .list-principles {
@@ -222,6 +219,10 @@ nav {
   margin-top: 10px;
 }
 
+.work {
+  padding-top: 0px;
+}
+
 .our-work-set {
   list-style-type: none;
   margin: 0px;
@@ -238,6 +239,9 @@ nav {
   margin-left: var(--card-set-gap);
 }
 
+.we {
+  background: #f5f4fa;
+}
 .our-team {
   display: flex;
   flex-wrap: wrap;
@@ -394,14 +398,13 @@ div h3 {
 .all-buttons {
   min-width: 661px;
   margin: 0 auto;
-  margin-bottom: 34px;
+  margin-bottom: 56px;
 
   text-align: center;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
 }
 
 .all-buttons > .order-1 + .order-1 {

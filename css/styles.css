@@ -350,7 +350,7 @@ div h3 {
   letter-spacing: 0.03em;
   color: var(--main-color-text-darkbackground);
 
-  display: inline-block;
+  display: block;
 }
 
 .footer-contact {

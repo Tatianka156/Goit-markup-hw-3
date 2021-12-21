@@ -192,7 +192,6 @@ nav {
 .list-principles {
   display: flex;
   flex-wrap: nowrap;
-  padding-top: 48px;
 }
 
 .list-principles > .oldsection {
@@ -310,8 +309,8 @@ div h3 {
 }
 
 .card-content {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .link-footer {
@@ -362,7 +361,8 @@ div h3 {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 
-  display: inline-block;
+  display: block;
+  min-width: 231px;
   margin-top: 9px;
 }
 
